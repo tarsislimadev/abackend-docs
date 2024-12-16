@@ -18,4 +18,4 @@ jobs:
           node-version: '22'
 
       - name: Node Version
-        run: node --version && npm --version
+        run: npx surge .
