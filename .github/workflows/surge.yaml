@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Node Version
+      - name: Surge Upload
         run: npx surge .
